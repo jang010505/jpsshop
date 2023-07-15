@@ -1,13 +1,13 @@
-package jpabook.jpsshop;
+package jpabook.jpashop;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JpsshopApplication {
+public class JpashopApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JpsshopApplication.class, args);
+		SpringApplication.run(JpashopApplication.class, args);
 	}
 
 }
