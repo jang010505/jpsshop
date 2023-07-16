@@ -32,7 +32,7 @@ public class OrderService {
         Delivery delivery = new Delivery();
         delivery.setAddress(member.getAddress());
 
-        OrderItem orderItem = OrderItem.creatOrderItem(item, item.getPrice(), count);
+        OrderItem orderItem = OrderItem.createOrderItem(item, item.getPrice(), count);
         Order order = Order.createOrder(member, delivery, orderItem);
 
         orderRepository.save(order);
